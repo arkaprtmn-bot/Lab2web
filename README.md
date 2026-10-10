@@ -3,11 +3,11 @@ Repositori ini dibuat untuk memenuhi tugas mata kuliah Praktikum 2 (HTML Lanjuta
 JPG
 
 Data Mahasiswa
-Nama: [Nama Kamu]
+Nama: [arka pratama]
 
-NIM: [NIM Kamu]
+NIM: [312510212]
 
-Kelas: [Kelas Kamu]
+Kelas: [I125B]
 
 Prodi: Teknik Informatika   
 JPG
