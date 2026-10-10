@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Profil Mahasiswa</title>
+</head>
+
+<body>
+
+    <!-- Header & Navigasi Utama -->
+    <header>
+        <h1>Portal Mahasiswa</h1>
+    </header>
+
+    <nav>
+        <a href="index.html">Beranda</a> | 
+        <a href="profil.html">Profil</a>
+    </nav>
+
+    <hr>
+
+    <!-- Konten Utama -->
+    <main>
+        <!-- Section Berita -->
+        <section>
+            <h2>Berita Akademik</h2>
+            <article>
+                <h3>Praktikum HTML</h3>
+                <p>Mahasiswa mengikuti praktikum HTML lanjutan.</p>
+            </article>
+        </section>
+
+        <aside>
+            <p><strong>Informasi tambahan:</strong> Pengumpulan tugas maksimal minggu depan.</p>
+        </aside>
+
+        <hr>
+
+        <!-- Tabel 1: Tabel Sederhana -->
+        <h2>Profil Singkat</h2>
+        <table border="2">
+            <caption>Profil Mahasiswa</caption>
+            <tr>
+                <th>NIM</th>
+                <th>Nama</th>
+                <th>Program Studi</th>
+                <th>Umur</th>
+            </tr>
+            <tr>
+                <td>31241001</td>
+                <td>arka pratama</td>
+                <td>Teknik Informatika</td>
+                <td>19</td>
+            </tr>
+        </table>
+
+        <br>
+
+        <!-- Tabel 2: Tabel Lengkap dengan thead, tbody, tfoot -->
+        <h2>Nilai Mahasiswa</h2>
+        <table border="2">
+            <caption>Data Mahasiswa</caption>
+            <thead>
+                <tr>
+                    <th>NIM</th>
+                    <th>Nama</th>
+                    <th>Nilai</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>31241001</td>
+                    <td>arka pratama</td>
+                    <td>20</td>
+                </tr>
+                <tr>
+                    <td>31241002</td>
+                    <td>Budi</td>
+                    <td>90</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td colspan="2">Rata-rata</td>
+                    <td>87.5</td>
+                </tr>
+            </tfoot>
+        </table>
+
+        <hr>
+
+        <!-- Formulir Data Diri -->
+        <h2>Formulir Data Diri</h2>
+        <form action="#" method="POST">
+            <div>
+                <label for="nama">Nama:</label><br>
+                <input type="text" id="nama" name="nama" required minlength="3">
+            </div>
+            <br>
+            <div>
+                <label for="email">Email:</label><br>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <br>
+            <div>
+                <label for="umur">Umur:</label><br>
+                <input type="number" id="umur" name="umur" min="17" max="60" required>
+            </div>
+            <br>
+            <div>
+                <label for="prodi">Program Studi:</label><br>
+                <select id="prodi" name="prodi">
+                    <option value="ti">Teknik Informatika</option>
+                    <option value="si">Sistem Informasi</option>
+                </select>
+            </div>
+            <br>
+            <div>
+                <label for="alamat">Alamat:</label><br>
+                <textarea id="alamat" name="alamat" rows="4" cols="40"></textarea>
+            </div>
+            <br>
+            <button type="submit">Kirim Data</button>
+        </form>
+
+        <hr>
+
+        <!-- Media Audio & Video -->
+        <h2>Media Player</h2>
+        <div>
+            <h3>Audio</h3>
+            <audio controls>
+                <source src="media/audio.mp3" type="audio/mpeg">
+                Browser tidak mendukung audio.
+            </audio>
+        </div>
+
+        <div>
+            <h3>Video</h3>
+            <video controls width="320">
+                <source src="media/media.mp4" type="video/mp4">
+                Browser tidak mendukung video.
+            </video>
+        </div>
+    </main>
+
+    <hr>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2026 Teknik Informatika</p>
+    </footer>
+
+</body>
+</html>
